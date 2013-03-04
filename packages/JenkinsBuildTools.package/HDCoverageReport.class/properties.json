@@ -1,0 +1,16 @@
+{
+	"category" : "JenkinsBuildTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packages",
+		"wrappers",
+		"covered" ],
+	"name" : "HDCoverageReport",
+	"pools" : [
+		 ],
+	"super" : "HDTestReport",
+	"type" : "normal" }

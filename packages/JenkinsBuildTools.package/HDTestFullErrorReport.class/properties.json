@@ -1,0 +1,14 @@
+{
+	"category" : "JenkinsBuildTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HDTestFullErrorReport",
+	"pools" : [
+		 ],
+	"super" : "HDCoverageReport",
+	"type" : "normal" }
