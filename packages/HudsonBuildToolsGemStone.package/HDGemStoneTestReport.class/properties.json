@@ -1,0 +1,14 @@
+{
+	"category" : "HudsonBuildToolsGemStone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HDGemStoneTestReport",
+	"pools" : [
+		 ],
+	"super" : "HDTestReport",
+	"type" : "normal" }
