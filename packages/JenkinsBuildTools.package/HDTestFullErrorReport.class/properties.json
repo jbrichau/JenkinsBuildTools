@@ -10,5 +10,5 @@
 	"name" : "HDTestFullErrorReport",
 	"pools" : [
 		 ],
-	"super" : "HDCoverageReport",
+	"super" : "HDTestReport",
 	"type" : "normal" }
