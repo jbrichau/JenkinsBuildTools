@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfJenkinsBuildTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfJenkinsBuildTools",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
