@@ -17,7 +17,8 @@ baseline: spec
 	].
 	
 	spec for: #gemstone do:[
-		
-		spec package: 'JenkinsBuildTools-Core' with:[spec includes: 'JenkinsBuildToolsGemStone'].
+		spec 
+			package: 'JenkinsBuildToolsGemStone';
+			package: 'JenkinsBuildTools-Core' with:[spec includes: 'JenkinsBuildToolsGemStone'].
 		
 	]
