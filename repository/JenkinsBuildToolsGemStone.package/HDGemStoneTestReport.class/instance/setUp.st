@@ -1,6 +1,5 @@
 running
 setUp
-	"self setupComponentTests."
 	
 	stream := ServerFileDirectory default forceNewFileNamed: suite name , '-Test.xml'.
 	stream nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>'; nextPut: Character lf.
