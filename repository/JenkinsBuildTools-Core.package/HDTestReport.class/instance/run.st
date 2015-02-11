@@ -4,6 +4,5 @@ run
 		ifUnknownAuthorUse: 'hudson'
 		during: [ [ 
 			self setUp.
-			suiteTime := [ self runAll ]
-				timeToRun ]
+			suiteTime := self millisecondsToRunBlock: [ self runAll ] ]
 					ensure: [ self tearDown ] ]

@@ -1,12 +1,11 @@
 running
 runCase: aTestCase
 	| error time stack |
-	time := [ [ aTestCase runCase ] 
+	time := self millisecondsToRunBlock: [ [ aTestCase runCase ] 
 		on: Halt , Error, TestFailure
 		do: [ :err |
 			error := err.
-			stack := self stackTraceString: err of: aTestCase ] ]
-			timeToRun.
+			stack := self stackTraceString: err of: aTestCase ] ].
 	self beginTestCase: aTestCase time: time.
 	(error isNil or: [ aTestCase expectedFailures includes: aTestCase selector ]) ifFalse: [
 		(error isKindOf: TestFailure)
