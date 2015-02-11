@@ -8,5 +8,5 @@ tearDown
 	stream nextPutAll: '</testsuite>'.
 	
 	stream position: suitePosition.
-	stream nextPutAll: ' failures="'; print: suiteFailures; nextPutAll:'" errors="'; print: suiteErrors; nextPutAll: '" time="'; print: suiteTime / 1000.0; nextPutAll: '">'.
+	stream nextPutAll: ' failures="'; print: suiteFailures; nextPutAll:'" errors="'; print: suiteErrors; nextPutAll: '" time="'; print: suiteTime asMilliseconds / 1000.0; nextPutAll: '">'.
 	stream close

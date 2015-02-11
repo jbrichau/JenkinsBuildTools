@@ -4,9 +4,9 @@
 		"runPackage:" : "lr 5/14/2010 09:16",
 		"runSuite:" : "lr 5/14/2010 09:16" },
 	"instance" : {
-		"beginTestCase:runBlock:" : "CamilloBruni 11/6/2013 21:33",
-		"beginTestCase:time:" : "lr 6/6/2010 18:44",
-		"done" : "IgorStasenko 1/6/2012 15:12",
+		"beginTestCase:runBlock:" : "AndyKellens 2/11/2015 10:36",
+		"beginTestCase:time:" : "AndyKellens 2/11/2015 10:41",
+		"done" : "AndyKellens 2/11/2015 10:35",
 		"endTestCase" : "lr 6/6/2010 18:45",
 		"initializeOn:" : "lr 1/10/2010 10:22",
 		"run" : "lr 6/9/2010 20:01",
@@ -15,7 +15,7 @@
 		"serializeError:of:" : "AndreiChis 10/7/2013 11:59",
 		"setUp" : "KrisGybels 5/3/2012 12:19",
 		"stackTraceString:of:" : "pmm 6/6/2010 18:13",
-		"tearDown" : "lr 5/15/2010 14:47",
+		"tearDown" : "AndyKellens 2/11/2015 10:46",
 		"writeError:stack:" : "lr 6/9/2010 10:32",
 		"writeException:stack:" : "JohanBrichau 6/8/2014 20:53",
 		"writeFailure:stack:" : "lr 6/9/2010 10:33" } }
