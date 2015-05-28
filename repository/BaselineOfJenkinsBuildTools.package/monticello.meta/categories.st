@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'BaselineOfJenkinsBuildTools'!
+SystemOrganization addCategory: #BaselineOfJenkinsBuildTools!
