@@ -1,3 +1,3 @@
 private
 stackTraceString: err of: aTestCase
-	^err description
+	^GsProcess stackReportToLevel: 1000
