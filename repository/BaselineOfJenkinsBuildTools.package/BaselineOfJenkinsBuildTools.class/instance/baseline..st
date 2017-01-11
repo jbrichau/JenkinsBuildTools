@@ -6,6 +6,8 @@ baseline: spec
 	spec for: #common do: [ 
 		
 		spec package: 'JenkinsBuildTools-Core'.
+		spec package: 'JenkinsBuildTools-AddOns'  with: [
+			spec requires: #('JenkinsBuildTools-Core') ].
 		
 	].
 	
