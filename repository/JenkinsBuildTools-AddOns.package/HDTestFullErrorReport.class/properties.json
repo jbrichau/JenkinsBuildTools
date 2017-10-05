@@ -1,14 +1,11 @@
 {
-	"category" : "JenkinsBuildTools-AddOns",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "HDTestFullErrorReport",
-	"pools" : [
-		 ],
 	"super" : "HDTestReport",
-	"type" : "normal" }
+	"category" : "JenkinsBuildTools-AddOns",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HDTestFullErrorReport",
+	"type" : "normal"
+}

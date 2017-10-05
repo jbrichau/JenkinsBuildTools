@@ -1,10 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"isLegalXMLCharacter:" : "KrisGybels 5/14/2012 13:49",
-		"log:" : "KrisGybels 1/11/2017 13:02",
 		"runCase:" : "KrisGybels 12/10/2012 14:47",
-		"stackTraceString:of:" : "KrisGybels 1/11/2017 12:10",
 		"writeError:stack:" : "KrisGybels 11/7/2013 14:33",
-		"writeFailure:stack:" : "KrisGybels 11/7/2013 14:33" } }
+		"writeFailure:stack:" : "KrisGybels 11/7/2013 14:33",
+		"log:" : "KrisGybels 1/11/2017 13:02",
+		"shouldSerializeError" : "KrisGybels 10/5/2017 09:24",
+		"stackTraceString:of:" : "KrisGybels 10/5/2017 09:23"
+	},
+	"class" : { }
+}
