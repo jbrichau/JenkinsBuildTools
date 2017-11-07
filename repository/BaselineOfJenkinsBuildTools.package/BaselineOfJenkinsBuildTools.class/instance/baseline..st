@@ -19,7 +19,7 @@ baseline: spec
 				
 	].
 
-	spec for: #(#'pharo4.x') do:[
+	spec for: #(#'pharo4.x' 'pharo5.x' 'pharo6.x') do:[
 		spec
 			package: 'JenkinsBuildTools-Pharo40';
 			package: 'JenkinsBuildTools-Core' with:[spec includes: 'JenkinsBuildTools-Pharo40'].
