@@ -1,19 +1,20 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"addTestsIn:to:" : "lr 6/9/2010 11:04",
-		"generate" : "lr 7/5/2010 08:24",
-		"generateDataOn:" : "lr 7/5/2010 13:30",
 		"generateOn:" : "lr 7/5/2010 13:09",
-		"generatePackage:class:on:" : "KrisGybels 5/21/2012 16:34",
-		"generatePackage:method:on:" : "KrisGybels 5/21/2012 16:33",
-		"generatePackage:on:" : "KrisGybels 5/21/2012 19:26",
-		"generateSourceFile:on:" : "KrisGybels 5/21/2012 19:26",
-		"generateStatsOn:" : "KrisGybels 5/21/2012 19:28",
 		"generateType:indent:total:actual:on:" : "lr 7/5/2010 13:15",
-		"ignoredSelectors" : "lr 6/9/2010 10:58",
-		"methodsIn:" : "lr 6/9/2010 11:01",
+		"generatePackage:on:" : "KrisGybels 5/21/2012 19:26",
+		"generate" : "lr 7/5/2010 08:24",
 		"packagesIn:" : "lr 6/9/2010 10:51",
 		"setUp" : "lr 6/9/2010 19:30",
-		"tearDown" : "lr 7/5/2010 08:22" } }
+		"generateSourceFile:on:" : "KrisGybels 5/21/2012 19:26",
+		"tearDown" : "lr 7/5/2010 08:22",
+		"generateStatsOn:" : "KrisGybels 5/21/2012 19:28",
+		"methodsIn:" : "lr 6/9/2010 11:01",
+		"generatePackage:method:on:" : "KrisGybels 5/21/2012 16:33",
+		"ignoredSelectors" : "lr 6/9/2010 10:58",
+		"generateDataOn:" : "lr 7/5/2010 13:30",
+		"addTestsIn:to:" : "lr 6/9/2010 11:04",
+		"generatePackage:class:on:" : "KrisGybels 5/21/2012 16:34"
+	},
+	"class" : { }
+}

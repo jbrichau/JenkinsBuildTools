@@ -1,15 +1,14 @@
 {
-	"category" : "JenkinsBuildTools-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "TorstenBergmann 2/12/2014 22:31",
+	"super" : "HDReport",
+	"category" : "JenkinsBuildTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"environment",
-		"rules" ],
+		"rules"
+	],
 	"name" : "HDLintReport",
-	"pools" : [
-		 ],
-	"super" : "HDReport",
-	"type" : "normal" }
+	"type" : "normal"
+}

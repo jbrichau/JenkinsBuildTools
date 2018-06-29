@@ -1,17 +1,20 @@
 {
-	"class" : {
-		"runClasses:named:" : "lr 9/8/2011 23:40",
-		"runEnvironment:" : "lr 5/14/2010 09:20",
-		"runPackage:" : "lr 9/8/2011 23:40" },
 	"instance" : {
-		"generateClass:on:" : "lr 7/4/2010 22:36",
+		"isSelectorEnvironment:" : "lr 9/8/2011 23:41",
 		"generateClass:selector:source:on:" : "lr 7/4/2010 20:46",
 		"generateClass:source:on:" : "lr 7/4/2010 21:08",
-		"generateOn:" : "lr 7/4/2010 21:17",
+		"lineAndColumn:at:" : "lr 5/14/2010 22:29",
+		"generateClass:on:" : "lr 7/4/2010 22:36",
+		"rules" : "MarcusDenker 4/20/2013 13:36",
+		"run" : "lr 9/8/2011 23:42",
 		"generateViolations:source:offset:on:" : "lr 2/12/2012 13:48",
 		"initializeOn:" : "lr 7/4/2010 22:34",
 		"isClassEnvironment:" : "lr 9/8/2011 23:41",
-		"isSelectorEnvironment:" : "lr 9/8/2011 23:41",
-		"lineAndColumn:at:" : "lr 5/14/2010 22:29",
-		"rules" : "MarcusDenker 4/20/2013 13:36",
-		"run" : "lr 9/8/2011 23:42" } }
+		"generateOn:" : "lr 7/4/2010 21:17"
+	},
+	"class" : {
+		"runEnvironment:" : "lr 5/14/2010 09:20",
+		"runPackage:" : "lr 9/8/2011 23:40",
+		"runClasses:named:" : "lr 9/8/2011 23:40"
+	}
+}

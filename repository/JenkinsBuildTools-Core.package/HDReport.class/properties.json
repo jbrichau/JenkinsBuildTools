@@ -1,14 +1,11 @@
 {
-	"category" : "JenkinsBuildTools-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "TorstenBergmann 2/12/2014 22:30",
-	"instvars" : [
-		 ],
-	"name" : "HDReport",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "JenkinsBuildTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HDReport",
+	"type" : "normal"
+}
