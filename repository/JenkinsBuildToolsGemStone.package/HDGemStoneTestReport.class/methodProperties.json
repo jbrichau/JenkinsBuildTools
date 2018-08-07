@@ -1,10 +1,17 @@
 {
-	"class" : {
-		"runPackage:" : "AndyKellens 06/19/2015 15:06" },
 	"instance" : {
+		"tearDown" : "AndyKellens 01/30/2013 14:56",
 		"beginTestCase:time:" : "AndyKellens 01/30/2013 14:54",
-		"endTestCase" : "AndyKellens 09/18/2015 16:25",
+		"printObjectDescription:on:" : "KrisGybels 8/7/2018 16:03",
+		"printVariable:paddedTo:withValue:on:" : "KrisGybels 8/7/2018 16:03",
+		"print:paddedTo:on:" : "KrisGybels 8/7/2018 16:01",
+		"stackTraceString:of:" : "KrisGybels 8/7/2018 16:04",
 		"run" : "AndyKellens 01/29/2013 16:28",
-		"setUp" : "JohanBrichau 11/02/2014 17:13",
-		"stackTraceString:of:" : "AndyKellens 06/24/2015 08:09",
-		"tearDown" : "AndyKellens 01/30/2013 14:56" } }
+		"printFrameContentsOf:at:on:" : "KrisGybels 8/7/2018 16:02",
+		"endTestCase" : "AndyKellens 09/18/2015 16:25",
+		"setUp" : "JohanBrichau 11/02/2014 17:13"
+	},
+	"class" : {
+		"runPackage:" : "AndyKellens 06/19/2015 15:06"
+	}
+}
