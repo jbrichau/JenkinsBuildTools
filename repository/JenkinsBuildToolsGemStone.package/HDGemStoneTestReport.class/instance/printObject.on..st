@@ -5,6 +5,8 @@ printObject: object on: outputStream
 
 	objectSize := Reflection sizeOf: object.
 	objectClass := Reflection classOf: object.
+	(objectClass isKindOf: CharacterCollection) ifTrue: [ ^ self ].
+	
 	instanceVariables := objectClass allInstVarNames.
 	numberOfInstanceVariables := instanceVariables size.
 	1 to: objectSize do: [ :objectIndex |
