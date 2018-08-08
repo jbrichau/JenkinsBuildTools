@@ -1,12 +1,14 @@
 private-stack tracing
 printFrameContentsOf: process at: level on: outputStream
 
-	| indentationString nameWidth receiverName frameContents receiver argAndTempNames |
+	| indentationString nameWidth receiverName frameContents method receiver argAndTempNames |
 
 	indentationString := '   '.
 	nameWidth := 15.
 	receiverName := 'receiver'.
 	frameContents := (process _frameContentsAt: level) ifNil: [ ^ false ].
+	method := frameContents at: 1.
+	(method notNil and: [ (method selector = #runAll) and: [ method inClass = HDTestReport ] ]) ifTrue: [ ^ false ].
 	receiver := frameContents at: 10.
 	argAndTempNames := frameContents at: 9.
 	outputStream
