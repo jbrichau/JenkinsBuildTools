@@ -12,4 +12,4 @@ printObjectDescription: object on: outputStream
 		nextPutAll: object class name.
 	outputStream
 		nextPutAll: '] ';
-		nextPutAll: (object printStringLimitedTo: 50).
+		nextPutAll: ([ object printStringLimitedTo: 50 ] on: Error do: [ :err | '<error printing object>' ]).
