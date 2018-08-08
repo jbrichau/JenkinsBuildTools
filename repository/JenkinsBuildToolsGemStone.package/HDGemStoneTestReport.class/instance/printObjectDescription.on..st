@@ -1,12 +1,17 @@
 private-stack tracing
 printObjectDescription: object on: outputStream
 
+	| objectSize objectClass |
+
+	objectSize := Reflection sizeOf: object.
+	objectClass := Reflection classOf: object.
+
 	outputStream nextPutAll: ' ['.
-	object asOop printOn: outputStream.
-	outputStream nextPutAll: ' size:'.
-	object size printOn: outputStream.
-	outputStream nextPutAll: ' class: '.
-	object class asOop printOn: outputStream.
+	(Reflection oopOf: object) printOn: outputStream.
+	outputStream nextPutAll: ', size: '.
+	objectSize printOn: outputStream.
+	outputStream nextPutAll: ', class: '.
+	(Reflection oopOf: objectClass) printOn: outputStream.
 	outputStream
 		nextPut: Character space;
 		nextPutAll: object class name.

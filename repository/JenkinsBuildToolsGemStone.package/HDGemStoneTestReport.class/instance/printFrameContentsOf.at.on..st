@@ -17,11 +17,15 @@ printFrameContentsOf: process at: level on: outputStream
 	outputStream nextPutAll: indentationString.
 	self printVariable: receiverName paddedTo: nameWidth withValue: receiver on: outputStream.
 	outputStream lf.
+	self printObject: receiver on: outputStream.
+	outputStream lf.
 	argAndTempNames keysAndValuesDo: [ :variableIndex :variableName |
 		| variableValue |
 		variableValue := frameContents at: 10 + variableIndex.
 		outputStream nextPutAll: indentationString.
 		self printVariable: variableName paddedTo: nameWidth withValue: variableValue on: outputStream.
+		outputStream lf.
+		self printObject: variableValue on: outputStream.
 		outputStream lf ].
 	outputStream lf.
 	^ true

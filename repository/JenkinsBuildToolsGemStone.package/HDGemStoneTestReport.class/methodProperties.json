@@ -2,12 +2,13 @@
 	"instance" : {
 		"tearDown" : "AndyKellens 01/30/2013 14:56",
 		"beginTestCase:time:" : "AndyKellens 01/30/2013 14:54",
-		"printObjectDescription:on:" : "KrisGybels 8/8/2018 09:09",
+		"printObjectDescription:on:" : "KrisGybels 8/8/2018 10:42",
 		"printVariable:paddedTo:withValue:on:" : "KrisGybels 8/7/2018 16:45",
+		"printObject:on:" : "KrisGybels 8/8/2018 10:41",
 		"print:paddedTo:on:" : "KrisGybels 8/7/2018 16:01",
 		"stackTraceString:of:" : "KrisGybels 8/7/2018 16:04",
 		"run" : "AndyKellens 01/29/2013 16:28",
-		"printFrameContentsOf:at:on:" : "KrisGybels 8/7/2018 16:02",
+		"printFrameContentsOf:at:on:" : "KrisGybels 8/8/2018 10:41",
 		"endTestCase" : "AndyKellens 09/18/2015 16:25",
 		"setUp" : "JohanBrichau 11/02/2014 17:13"
 	},
