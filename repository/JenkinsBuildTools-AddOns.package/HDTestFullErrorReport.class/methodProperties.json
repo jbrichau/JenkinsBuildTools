@@ -1,8 +1,7 @@
 {
 	"instance" : {
-		"isLegalXMLCharacter:" : "KrisGybels 5/14/2012 13:49",
-		"runCase:" : "KrisGybels 12/10/2012 14:47",
 		"writeError:stack:" : "KrisGybels 11/7/2013 14:33",
+		"runCase:" : "KrisGybels 12/10/2012 14:47",
 		"writeFailure:stack:" : "KrisGybels 11/7/2013 14:33",
 		"log:" : "KrisGybels 1/11/2017 13:02",
 		"shouldSerializeError" : "KrisGybels 10/5/2017 09:24",
