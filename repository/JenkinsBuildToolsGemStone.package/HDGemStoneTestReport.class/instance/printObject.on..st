@@ -6,6 +6,7 @@ printObject: object on: outputStream
 	objectSize := Reflection sizeOf: object.
 	objectClass := Reflection classOf: object.
 	(objectClass includesBehavior: CharacterCollection) ifTrue: [ ^ self ].
+	(objectClass includesBehavior: ByteArray) ifTrue: [ ^ self ].
 	
 	instanceVariables := objectClass allInstVarNames.
 	numberOfInstanceVariables := instanceVariables size.
