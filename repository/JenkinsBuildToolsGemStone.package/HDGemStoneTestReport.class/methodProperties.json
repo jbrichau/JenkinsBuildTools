@@ -1,6 +1,6 @@
 {
 	"instance" : {
-		"tearDown" : "AndyKellens 01/30/2013 14:56",
+		"tearDown" : "KrisGybels 8/16/2018 22:13",
 		"beginTestCase:time:" : "AndyKellens 01/30/2013 14:54",
 		"printObjectDescription:on:" : "KrisGybels 8/8/2018 10:42",
 		"printVariable:paddedTo:withValue:on:" : "KrisGybels 8/7/2018 16:45",
@@ -10,7 +10,7 @@
 		"run" : "AndyKellens 01/29/2013 16:28",
 		"printFrameContentsOf:at:on:" : "KrisGybels 8/8/2018 14:00",
 		"endTestCase" : "AndyKellens 09/18/2015 16:25",
-		"setUp" : "KrisGybels 8/16/2018 16:48"
+		"setUp" : "KrisGybels 8/16/2018 22:13"
 	},
 	"class" : {
 		"runPackage:" : "AndyKellens 06/19/2015 15:06"

@@ -9,4 +9,4 @@ tearDown
 	
 	stream position: suitePosition.
 	stream nextPutAll: ' failures="'; print: suiteFailures; nextPutAll:'" errors="'; print: suiteErrors; nextPutAll: '" time="'; nextPutAll: (suiteTime / 1000.0) printNextPlanInteger ; nextPutAll: '">'.
-	stream close
+	fileStream close
