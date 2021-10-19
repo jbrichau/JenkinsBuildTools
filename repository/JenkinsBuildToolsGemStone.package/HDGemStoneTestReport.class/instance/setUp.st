@@ -1,7 +1,7 @@
 running
 setUp
 	
-	fileStream := ServerFileDirectory default forceNewFileNamed: suite name , '-Test.xml'.
+	fileStream := NPGsFileWrapper onFile: (ServerFileDirectory default forceNewFileNamed: suite name , '-Test.xml').
 	stream := (GRCodec forEncoding: 'utf-8') encoderFor: fileStream.
 	stream nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>'; nextPut: Character lf.
 	stream nextPutAll: '<testsuite name="'; nextPutAll: (self encode: suite name); nextPutAll: '" tests="'; print: suite tests size; nextPutAll: '">'.

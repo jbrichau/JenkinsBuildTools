@@ -11,11 +11,19 @@ printFrameContentsOf: process at: level on: outputStream
 	(method notNil and: [ (method selector = #runAll) and: [ method inClass = HDTestReport ] ]) ifTrue: [ ^ false ].
 	receiver := frameContents at: 10.
 	argAndTempNames := frameContents at: 9.
-	outputStream
-		nextPutAll: (GsProcess _reportWithFrameContents: frameContents);
-		nextPut: Character space;
-		nextPutAll: (process _localStepPointStringAt: level);
-		lf.
+	GRPlatform current isGemStone3
+		ifTrue:[
+			outputStream
+				nextPutAll: (process _reportWithFrameContents: frameContents level: level);
+				nextPut: Character space;
+				nextPutAll: (process _stepPointStringAt: level);
+				lf ]
+		ifFalse:[
+			outputStream
+				nextPutAll: (GsProcess _reportWithFrameContents: frameContents);
+				nextPut: Character space;
+				nextPutAll: (process _localStepPointStringAt: level);
+				lf ].
 	outputStream nextPutAll: indentationString.
 	self printVariable: receiverName paddedTo: nameWidth withValue: receiver on: outputStream.
 	outputStream lf.

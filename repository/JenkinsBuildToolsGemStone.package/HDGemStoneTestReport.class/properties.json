@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "HDTestReport",
 	"category" : "JenkinsBuildToolsGemStone",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"fileStream"
-	],
+		"fileStream" ],
 	"name" : "HDGemStoneTestReport",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "HDTestReport",
+	"type" : "normal" }

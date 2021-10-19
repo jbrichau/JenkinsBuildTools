@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #JenkinsBuildToolsGemStone!
+SystemOrganization addCategory: #'JenkinsBuildToolsGemStone'!

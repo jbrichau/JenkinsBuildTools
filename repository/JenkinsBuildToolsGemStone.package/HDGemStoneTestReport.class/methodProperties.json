@@ -1,19 +1,16 @@
 {
+	"class" : {
+		"runPackage:" : "AndyKellens 06/19/2015 15:06" },
 	"instance" : {
-		"runCase:" : "KrisGybels 8/21/2018 11:51",
-		"tearDown" : "KrisGybels 8/16/2018 22:13",
 		"beginTestCase:time:" : "AndyKellens 01/30/2013 14:54",
+		"endTestCase" : "AndyKellens 09/18/2015 16:25",
+		"print:paddedTo:on:" : "KrisGybels 8/7/2018 16:01",
+		"printFrameContentsOf:at:on:" : "JohanBrichau 10/19/2021 09:15",
+		"printObject:on:" : "KrisGybels 8/9/2018 09:42",
 		"printObjectDescription:on:" : "KrisGybels 8/8/2018 10:42",
 		"printVariable:paddedTo:withValue:on:" : "KrisGybels 8/7/2018 16:45",
-		"printObject:on:" : "KrisGybels 8/9/2018 09:42",
-		"print:paddedTo:on:" : "KrisGybels 8/7/2018 16:01",
-		"stackTraceString:of:" : "KrisGybels 8/9/2018 09:26",
 		"run" : "AndyKellens 01/29/2013 16:28",
-		"printFrameContentsOf:at:on:" : "KrisGybels 8/8/2018 14:00",
-		"endTestCase" : "AndyKellens 09/18/2015 16:25",
-		"setUp" : "KrisGybels 8/16/2018 22:13"
-	},
-	"class" : {
-		"runPackage:" : "AndyKellens 06/19/2015 15:06"
-	}
-}
+		"runCase:" : "KrisGybels 8/21/2018 11:51",
+		"setUp" : "JohanBrichau 10/19/2021 08:41",
+		"stackTraceString:of:" : "KrisGybels 8/9/2018 09:26",
+		"tearDown" : "KrisGybels 8/16/2018 22:13" } }
