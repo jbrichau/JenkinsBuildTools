@@ -4,6 +4,7 @@
 	"instance" : {
 		"beginTestCase:time:" : "AndyKellens 01/30/2013 14:54",
 		"endTestCase" : "AndyKellens 09/18/2015 16:25",
+		"exceptionSet" : "KrisGybels 05/02/2024 17:02",
 		"print:paddedTo:on:" : "KrisGybels 8/7/2018 16:01",
 		"printFrameContentsOf:at:on:" : "JohanBrichau 10/19/2021 09:15",
 		"printObject:on:" : "KrisGybels 8/9/2018 09:42",
