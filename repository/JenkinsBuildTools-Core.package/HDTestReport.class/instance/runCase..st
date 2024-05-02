@@ -2,7 +2,7 @@ running
 runCase: aTestCase
 	| error time stack |
 	time := self millisecondsToRunBlock: [ [ aTestCase runCase ] 
-		on: Halt , Error, TestFailure
+		on: self exceptionSet
 		do: [ :err |
 			error ifNil: [
 				error := err.
